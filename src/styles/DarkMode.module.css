@@ -1,3 +1,23 @@
 /* TODO: Define styles for dark mode */
 
 /* TODO: Ensure text and background colors adjust for dark mode */
+
+.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Optional: style links and buttons specifically in dark mode */
+.dark a {
+  color: #90caf9;
+}
+
+.dark button {
+  background-color: #333;
+  color: #eee;
+  border-color: #90caf9;
+}
+
+.dark button:hover {
+  border-color: #64b5f6;
+}
